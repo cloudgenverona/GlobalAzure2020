@@ -9,7 +9,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | ------ | ------ |
 | Cloud is a journey, not a master move | [Materiale][LinkPresentazioneIniziale] |
 | Are you ready for Microsoft Azure Sphere? | [Materiale][LinkSphere] |
-| Scenari di Disaster Recovery e Cloud Migration in Azure | [Materiale][] |
+| Scenari di Disaster Recovery e Cloud Migration in Azure |  |
 | How to develop modern web application, with no money and no Javascript | [Materiale][LinkNoMoney] |
 | .NET developer for Jupyter Notebooks and Apache Spark and viceversa | [Materiale][LinkJupiter] |
 | Infrastructure as Code con Terraform… e Azure DevOps! |  |
