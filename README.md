@@ -12,8 +12,8 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Scenari di Disaster Recovery e Cloud Migration in Azure |  |
 | How to develop modern web application, with no money and no Javascript | [Materiale][LinkNoMoney] |
 | .NET developer for Jupyter Notebooks and Apache Spark and viceversa | [Materiale][LinkJupiter] |
-| Infrastructure as Code con Terraform… e Azure DevOps! |  |
-| Azure Cognitive Search oltre la prima demo |  |
+| Infrastructure as Code con Terraform… e Azure DevOps! | [Materiale][LinkTerraform] |
+| Azure Cognitive Search oltre la prima demo | [Materiale][LinkCognitiveSearch] |
 | Le tua App sono pronte per il Cloud? Rivolgiti al CAF! | [Materiale][LinkCAF] |
 | Deploy Azure with Pulumi |  |
 | Remote Profiling di applicazioni ASP.NET Core |  |
@@ -34,6 +34,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkSphere]: <https://www.slideshare.net/mircovanini1/are-you-ready-for-microsoft-azure-sphere>
    [LinkJupiter]: <https://www.slideshare.net/marco.parenzan/net-developer-for-jupyter-notebook-and-apache-spark-and-viceversa-232581234>
    [LinkTerraform]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/Terraform>
+   [LinkCognitiveSearch]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/CognitiveSearch>
    [LinkCAF]: <https://www.slideshare.net/dpcons/le-tue-app-sono-pronte-per-il-cloud-rivolgiti-al-caf>
    [LinkIaaSforSQL]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/IaaSforSQL>
    [LinkAKS]: <https://www.slideshare.net/GiulianoLatini1/monitoring-applications-in-aks>
