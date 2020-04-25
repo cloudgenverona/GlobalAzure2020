@@ -22,11 +22,11 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Walk-through of Azure Machine Learning Service new features |  |
 | What’s new on Azure IaaS for SQL Server | [Materiale][LinkIaaSforSQL] |
 | Create an auth system for microservice |   |
-| Time Series Analytics with Azure ADX |  |
+| Time Series Analytics with Azure ADX | [Materiale][LinkADX] |
 | Monitoring Applications in AKS | [Materiale][LinkAKS] |
 | Adaptive Cards Deep Dive | [Materiale][LinkAdaptiveCard] |
 | Sistema di controllo del traffico con architettura Big Data | [Materiale][LinkBigData] |
-| Azure Functions: best practices when going to production |  |
+| Azure Functions: best practices when going to production | [Materiale][LinkFunc] |
 | Alarm!!! Launch can not wait! Let’s write tests. |  |
 
    [LinkPresentazioneIniziale]: <https://github.com/anbened/PresentationsAndCodeSamples/blob/master/2020/GlobalAzure/Cloud_is_a_journey.pdf>
@@ -41,6 +41,8 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkAKS]: <https://www.slideshare.net/GiulianoLatini1/monitoring-applications-in-aks>
    [LinkAdaptiveCard]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/AdaptiveCardsDeepDive>
    [LinkBigData]: <https://www.slideshare.net/marpoz/real-time-analytics-infrastructure-with-azure>
+   [LinkADX]: <https://www.slideshare.net/RiccardoZamana/time-series-analytics-azure-adx>
+   [LinkFunc]: <https://github.com/demiliani/global-azure-2020>
 
 ## Sessioni registrate
 Tutte le sessioni registrate le potete consultare [nell'agenda dell'evento](https://cloudgen.it/global-azure-2020/).
