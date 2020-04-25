@@ -1,0 +1,62 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+  name: Azure Pipelines
+
+variables:
+  tfregion: 'westeurope'
+  tfenv: 'dev'
+  tfappshortname: 'contosoapp'
+
+steps:
+- checkout: self
+  persistCredentials: true
+
+- task: 11645770-d18e-11e8-8f5b-1b8b62612b3b@0
+  inputs:
+    terraformVersion: '0.12.24'
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'init'
+    backendType: 'azurerm'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+    commandOptions: '-no-color'
+    backendServiceArm: 'MVP - Visual Studio Enterprise(fe399709-6808-4bec-abe5-d4b4028fa267)'
+    ensureBackend: true
+    backendAzureRmResourceGroupName: 'Terraform-rg'
+    backendAzureRmResourceGroupLocation: 'westeurope'
+    backendAzureRmStorageAccountName: 'terraformcicdstate'
+    backendAzureRmStorageAccountSku: 'Standard_LRS'
+    backendAzureRmContainerName: 'terraformstate'
+    backendAzureRmKey: 'contosolab.tfstate'
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'validate'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+    commandOptions: '-no-color'
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'plan'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+    environmentServiceName: 'MVP - Visual Studio Enterprise(fe399709-6808-4bec-abe5-d4b4028fa267)'
+    commandOptions: '-no-color -detailed-exitcode -var region=$(tfregion) -var env-short-name=$(tfenv) -var app-short-name=$(tfappshortname) -out=contosolab.tfstate'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)/terraform'
+  inputs:
+    SourceFolder: terraform
+    TargetFolder: '$(build.artifactstagingdirectory)/terraform'
+  enabled: false
+  continueOnError: true
+  condition: and(succeeded(), eq(variables['TERRAFORM_PLAN_HAS_CHANGES'], 'true'))
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: terraform
+  condition: and(succeeded(), eq(variables['TERRAFORM_PLAN_HAS_CHANGES'], 'true'))
