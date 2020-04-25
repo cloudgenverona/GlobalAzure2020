@@ -18,7 +18,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Deploy Azure with Pulumi |  |
 | Remote Profiling di applicazioni ASP.NET Core |  |
 | Automating Azure SQL Database maintenance tasks | [Materiale][LinkAKS] |
-| Microsoft Teams Tips & Tricks |  |
+| Microsoft Teams Tips & Tricks | [Materiale][LinkTeams] |
 | Walk-through of Azure Machine Learning Service new features |  |
 | What’s new on Azure IaaS for SQL Server | [Materiale][LinkIaaSforSQL] |
 | Create an auth system for microservice |   |
@@ -35,6 +35,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkJupiter]: <https://www.slideshare.net/marco.parenzan/net-developer-for-jupyter-notebook-and-apache-spark-and-viceversa-232581234>
    [LinkTerraform]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/Terraform>
    [LinkCognitiveSearch]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/CognitiveSearch>
+   [LinkTeams]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/Teams>
    [LinkCAF]: <https://www.slideshare.net/dpcons/le-tue-app-sono-pronte-per-il-cloud-rivolgiti-al-caf>
    [LinkIaaSforSQL]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/IaaSforSQL>
    [LinkAKS]: <https://www.slideshare.net/GiulianoLatini1/monitoring-applications-in-aks>
