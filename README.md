@@ -17,7 +17,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Le tua App sono pronte per il Cloud? Rivolgiti al CAF! | [Materiale][LinkCAF] |
 | Deploy Azure with Pulumi |  |
 | Remote Profiling di applicazioni ASP.NET Core |  |
-| Automating Azure SQL Database maintenance tasks | [Materiale][LinkAKS] |
+| Automating Azure SQL Database maintenance tasks | [Materiale][LinkDatatabaseMaintenance] |
 | Microsoft Teams Tips & Tricks | [Materiale][LinkTeams] |
 | Walk-through of Azure Machine Learning Service new features |  |
 | What’s new on Azure IaaS for SQL Server | [Materiale][LinkIaaSforSQL] |
@@ -43,6 +43,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkBigData]: <https://www.slideshare.net/marpoz/real-time-analytics-infrastructure-with-azure>
    [LinkADX]: <https://www.slideshare.net/RiccardoZamana/time-series-analytics-azure-adx>
    [LinkFunc]: <https://github.com/demiliani/global-azure-2020>
+   [LinkDatatabaseMaintenance]: <https://github.com/segovoni/sql-server-demos/tree/master/globalazure/2020/automating-azure-sql-database-maintenance-tasks>
 
 ## Sessioni registrate
 Tutte le sessioni registrate le potete consultare [nell'agenda dell'evento](https://cloudgen.it/global-azure-2020/).
