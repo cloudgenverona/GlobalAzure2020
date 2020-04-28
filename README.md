@@ -19,9 +19,9 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Remote Profiling di applicazioni ASP.NET Core |  |
 | Automating Azure SQL Database maintenance tasks | [Materiale][LinkDatatabaseMaintenance] |
 | Microsoft Teams Tips & Tricks | [Materiale][LinkTeams] |
-| Walk-through of Azure Machine Learning Service new features |  |
+| Walk-through of Azure Machine Learning Service new features | [Materiale][LinkML] |
 | What’s new on Azure IaaS for SQL Server | [Materiale][LinkIaaSforSQL] |
-| Create an auth system for microservice |   |
+| Create an auth system for microservice | [Materiale][LinkIS]  |
 | Time Series Analytics with Azure ADX | [Materiale][LinkADX] |
 | Monitoring Applications in AKS | [Materiale][LinkAKS] |
 | Adaptive Cards Deep Dive | [Materiale][LinkAdaptiveCard] |
@@ -44,6 +44,8 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkADX]: <https://www.slideshare.net/RiccardoZamana/time-series-analytics-azure-adx>
    [LinkFunc]: <https://github.com/demiliani/global-azure-2020>
    [LinkDatatabaseMaintenance]: <https://github.com/segovoni/sql-server-demos/tree/master/globalazure/2020/automating-azure-sql-database-maintenance-tasks>
+   [LinkML]: <https://www.slideshare.net/lucazav/walk-through-of-azure-machine-learning-studio-new-features>
+   [LinkIS]: <https://www.slideshare.net/AlessandroPerugini1/global-azure2020-identityserver>
 
 ## Sessioni registrate
 Tutte le sessioni registrate le potete consultare [nell'agenda dell'evento](https://cloudgen.it/global-azure-2020/).
