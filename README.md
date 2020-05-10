@@ -15,7 +15,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
 | Infrastructure as Code con Terraform… e Azure DevOps! | [Materiale][LinkTerraform] |
 | Azure Cognitive Search oltre la prima demo | [Materiale][LinkCognitiveSearch] |
 | Le tua App sono pronte per il Cloud? Rivolgiti al CAF! | [Materiale][LinkCAF] |
-| Deploy Azure with Pulumi |  |
+| Deploy Azure with Pulumi | [Materiale][LinkPalumi] |
 | Remote Profiling di applicazioni ASP.NET Core |  |
 | Automating Azure SQL Database maintenance tasks | [Materiale][LinkDatatabaseMaintenance] |
 | Microsoft Teams Tips & Tricks | [Materiale][LinkTeams] |
@@ -46,6 +46,7 @@ In questo repository trovate il materiale dell'ultimo Global Azure (24/04/2020)
    [LinkDatatabaseMaintenance]: <https://github.com/segovoni/sql-server-demos/tree/master/globalazure/2020/automating-azure-sql-database-maintenance-tasks>
    [LinkML]: <https://www.slideshare.net/lucazav/walk-through-of-azure-machine-learning-studio-new-features>
    [LinkIS]: <https://www.slideshare.net/AlessandroPerugini1/global-azure2020-identityserver>
+   [LinkPalumi]: <https://github.com/cloudgenverona/GlobalAzure2020/tree/master/Palumi>
 
 ## Sessioni registrate
 Tutte le sessioni registrate le potete consultare [nell'agenda dell'evento](https://cloudgen.it/global-azure-2020/).
